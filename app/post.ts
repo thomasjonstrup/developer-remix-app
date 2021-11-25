@@ -1,5 +1,6 @@
 import path from 'path';
-import fs from 'fs/promises';
+/* import fs from 'fs/promises'; */
+const fs = require('fs').promises;
 import parseFrontMatter from 'front-matter';
 import { marked } from 'marked';
 
