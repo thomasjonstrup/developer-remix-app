@@ -74,3 +74,9 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+/.cache
+/netlify/functions/server/build
+/public/build
+/.netlify
+build
