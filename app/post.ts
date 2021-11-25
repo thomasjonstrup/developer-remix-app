@@ -18,7 +18,7 @@ export const getPost = async (slug: string) => {
 	return { slug, html, title: attributes.title };
 };
 
-let postsPath = path.join(__dirname, '../../..', 'posts');
+let postsPath = path.join(__dirname, '../../../..', 'posts');
 
 export const getPosts = async (): Promise<Post[]> => {
 	const dir = await fs.readdir(postsPath);
